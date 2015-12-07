@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80744C2F1C15B51A00D65E07 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 80744C2E1C15B51A00D65E07 /* main.c */; };
+		80744C2F1C15B51A00D65E07 /* FlattenList.c in Sources */ = {isa = PBXBuildFile; fileRef = 80744C2E1C15B51A00D65E07 /* FlattenList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		80744C2B1C15B51A00D65E07 /* FlattenList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlattenList; sourceTree = BUILT_PRODUCTS_DIR; };
-		80744C2E1C15B51A00D65E07 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		80744C2E1C15B51A00D65E07 /* FlattenList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FlattenList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		80744C2D1C15B51A00D65E07 /* FlattenList */ = {
 			isa = PBXGroup;
 			children = (
-				80744C2E1C15B51A00D65E07 /* main.c */,
+				80744C2E1C15B51A00D65E07 /* FlattenList.c */,
 			);
 			path = FlattenList;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80744C2F1C15B51A00D65E07 /* main.c in Sources */,
+				80744C2F1C15B51A00D65E07 /* FlattenList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
