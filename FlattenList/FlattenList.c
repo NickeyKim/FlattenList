@@ -24,7 +24,7 @@ while the first level still not ends
         update Tail pointer
     move to NextNode
  
- UnFlattenList
+- UnFlattenList
  while to the end of the list
     if CurrentNode has a child
         Cut its child from Previous Node
