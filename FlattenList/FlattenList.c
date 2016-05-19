@@ -16,8 +16,8 @@ typedef struct Node{
     int value;
 } Node;
 
-/* FlattenList
-Starts at the beginning of first level
+/* Flatten List
+it Starts at the beginning of first level
 while the first level still not ends
     if CurrentNode has a child
         Add the child at the last of the List
@@ -30,7 +30,15 @@ while the first level still not ends
         Cut its child from Previous Node
         Search child of child
     move to NextNode
-*/
+
+ Unflattened List:
+ 4-9-8-2-7 3 5-1 6
+ Flattened List:
+ 4 3 5 6 9 8 1 2 7
+ Unflattened List:
+ 4-9-8-2-7 3 5-1 6
+ */
+
 void ExploreAndSeperate ( Node *ChildListStart){
     Node *curNode = ChildListStart;
     
